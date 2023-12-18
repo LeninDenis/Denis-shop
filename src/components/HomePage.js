@@ -2,7 +2,7 @@
 import React from 'react';
 import WelcomeSection from './WelcomeSection';
 import PopularProductsSection from './PopularProductsSection';
-import './HomePage.css';
+import './styles/HomePage.css';
 
 const HomePage = () => {
   return (

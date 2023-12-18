@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios'; // Убедитесь, что у вас установлен пакет axios
-import './Register.css';
+import './styles/Register.css';
 
 const Registration = () => {
   const [name, setName] = useState('');

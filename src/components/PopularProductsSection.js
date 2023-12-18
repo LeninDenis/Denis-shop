@@ -1,6 +1,6 @@
 // src/components/PopularProductsSection.js
 import React from 'react';
-import './PopularProductsSection.css';
+import './styles/PopularProductsSection.css';
 import MyloImage from './Мыло.jpg';
 
 const PopularProductSection = () => {

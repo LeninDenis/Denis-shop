@@ -1,0 +1,22 @@
+footer {
+    position: fixed;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 250px;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-section {
+    text-align: left;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}

@@ -23,6 +23,8 @@
     text-align: center;
     margin-bottom: 20px;
     transition: background-color 1s ease;
+    max-height: 250px; /* Задайте максимальную высоту по вашему усмотрению */
+    overflow: hidden; /* Обрезаем контент, который выходит за пределы максимальной высоты */
   }
   
   .product-card:hover {

@@ -14,8 +14,10 @@ header {
     color: #fff;
     display: flex;
     justify-content: space-between;
+    text-align: center;
     align-items: center;
     padding: 10px 20px;
+    height: 100px;
 }
 
 .header-list {
@@ -87,3 +89,8 @@ nav a:hover {
 .auth-buttons a:hover {
     color: #ffa154;
 }
+
+.content {
+    min-height: calc(100vh - (40px + 100px));
+  /* Высота экрана - (высота header + высота footer) */
+  }

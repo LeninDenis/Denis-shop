@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import api from './api';
 import './Login.css';
 
 const Login = () => {
@@ -11,13 +12,15 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      // Отправить учетные данные (email, password) на сервер для проверки
-      // И обработать ответ (например, получить токен доступа)
-      // В случае успешного входа, перенаправить пользователя на другую страницу
-      navigate('/dashboard'); // Замените '/dashboard' на ваш путь после успешного входа
+      const response = await api.login(email, password);
+  
+      if (response.success) {
+        navigate('/dashboard');
+      } else {
+        console.error('Ошибка входа:', response.error);
+      }
     } catch (error) {
       console.error('Ошибка входа:', error);
-      // Обработать ошибку входа, например, показать сообщение об ошибке
     }
   };
 

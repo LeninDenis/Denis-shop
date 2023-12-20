@@ -1,9 +1,8 @@
-/* src/App.css */
 body {
   font-family: 'Rubik Bubbles', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fff; /* Белый фон */
+  background-color: #fff;
 }
 
 .App {
@@ -21,12 +20,6 @@ body {
   padding-left: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -40,13 +33,4 @@ body {
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

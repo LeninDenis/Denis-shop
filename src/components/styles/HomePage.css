@@ -1,7 +1,4 @@
-.homepage-content {
-    min-height: 150px;
-  }
-
-  .col-md-12 {
-    overflow: hidden;
+.homepage-content {  
+    justify-content: center;
+    padding: 100px;
   }

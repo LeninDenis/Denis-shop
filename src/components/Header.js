@@ -10,10 +10,8 @@ const Header = () => {
                     <img src={logo} alt="" className="header-logo" style={{ width: '100px', height: '100px' }}/>
                 </Link>
             <div className="nav-item">
-                    <Link to="/main">Главная</Link>
                     <Link to="/catalog">Каталог</Link>
                     <Link to="/discounts">Акции и скидки</Link>
-                    <Link to="/about">О нас</Link>
                 </div>
           <div className="user-actions">
             <Link to="/login">Войти</Link>

@@ -6,7 +6,8 @@
   .products {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    grid-gap: 30px;
+    margin-left: 105px;
   }
   
   .product-section {
@@ -14,17 +15,18 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 20px 0;
+    margin: 50px;
   }
   
   .product-card {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     transition: background-color 1s ease;
-    max-height: 250px; /* Задайте максимальную высоту по вашему усмотрению */
-    overflow: hidden; /* Обрезаем контент, который выходит за пределы максимальной высоты */
+    max-height: 250px;
+    max-width: 250px;
+    overflow: hidden;
   }
   
   .product-card:hover {
@@ -32,9 +34,9 @@
   }
   
   .product-card img {
-    width: 100%; /* Используйте относительные единицы для размера изображения */
-    max-width: 150px; /* Ограничиваем максимальную ширину, чтобы избежать растягивания */
-    height: auto; /* Поддерживает пропорциональное изменение размеров */
+    width: 100%;
+    max-width: 150px;
+    height: auto;
     border: 1px solid #ddd;
     border-radius: 50%;
   }
@@ -49,6 +51,6 @@
   }
   
   .product-card button:hover {
-    background-color: #0056b3;
+    background-color: #010204;
   }
   

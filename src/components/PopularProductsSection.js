@@ -1,7 +1,8 @@
-// src/components/PopularProductsSection.js
 import React from 'react';
 import './styles/PopularProductsSection.css';
 import MyloImage from './Мыло.jpg';
+import CandleImage from './Свечи.jpg';
+import StatuetteImage from './Статуэтка.jpg';
 
 const PopularProductSection = () => {
     const products = [
@@ -17,35 +18,14 @@ const PopularProductSection = () => {
         name: 'Свечи ароматические',
         price: 1500,
         description: 'Свечи с разными ароматами',
-        image: 'C:\\Users\\Denis\\Downloads\\Свечи.jpg',
+        image: CandleImage,
       },
       {
         id: 3,
         name: 'Статуэтка',
         price: 5000,
         description: 'Статуэтка',
-        image: MyloImage,
-      },
-      {
-        id: 1,
-        name: 'Мыло подарочное',
-        price: 3000,
-        description: 'Мыло в подарочной упаковке',
-        image: MyloImage,
-      },
-      {
-        id: 2,
-        name: 'Свечи ароматические',
-        price: 1500,
-        description: 'Свечи с разными ароматами',
-        image: 'C:\\Users\\Denis\\Downloads\\Свечи.jpg',
-      },
-      {
-        id: 3,
-        name: 'Статуэтка',
-        price: 5000,
-        description: 'Статуэтка',
-        image: MyloImage,
+        image: StatuetteImage,
       },
     ];
   
@@ -59,7 +39,6 @@ const PopularProductSection = () => {
               <h3>{product.name}</h3>
               <p>Стоимость: {product.price}тг.</p>
               <p>{product.description}</p>
-              {/* Добавьте кнопку "Добавить в корзину" и логику для обработки действия */}
             </div>
           ))}
         </div>

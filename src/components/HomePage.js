@@ -1,4 +1,3 @@
-// src/pages/HomePage.js
 import React from 'react';
 import WelcomeSection from './WelcomeSection';
 import PopularProductsSection from './PopularProductsSection';
